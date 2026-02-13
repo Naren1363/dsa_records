@@ -1,0 +1,22 @@
+class window {
+	public static void main (String [] args){
+		int [] arr = {1,12,-5,-6,50,3};// 421= 7, 217= 10, 178=16, 781=16,812 = 11; 128 = 11, 281=11, 810=9
+		int k =3;
+		int win =0, max =0;
+		
+		for (int i=0;i<3 ;i++ ){
+			win = win + arr[i];} // 7
+	
+	System.out.println(win);
+	
+			max = win;
+			
+	for (int i=3;i<arr.length ;i++ ){
+			win = win - arr[i-k] + arr[i];//10;, 16 , 16 ,11,
+		   max = Math.max(win,max);
+		   }
+		   
+		   System.out.println(max);
+		   System.out.printf("%.2f",max / (double)k );
+	}
+}

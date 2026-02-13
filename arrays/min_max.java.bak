@@ -1,0 +1,18 @@
+class min_max{
+	public static void main (String [] args){
+		int [] arr ={1,2,3,4,5,5,6};
+		int max=arr[0],sec=qarr[0];
+		for (int i=1;i<arr.length ;i++ ){
+			if (arr[i]>max){
+				sec= max;
+				max= arr[i];}
+				
+			else if (arr[i]<max && arr[i]>sec){
+				sec=arr[i];}}
+				System.out.println(max);
+							System.out.println(sec);
+	
+			
+			}
+			
+			}

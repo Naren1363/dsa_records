@@ -1,0 +1,13 @@
+class reverse {
+	public static void main (String [] args){
+		int a=143;
+		int digit=0;
+		while (a>0){
+			digit=a%10;
+			a=a/10;
+			
+			System.out.print
+				(digit);}
+			
+	}
+}
